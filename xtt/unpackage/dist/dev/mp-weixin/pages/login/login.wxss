@@ -1,0 +1,52 @@
+
+page {
+		background-color:#f8f8f8;
+}
+input {
+	height: 96rpx;
+	margin: 0 20rpx;
+	line-height: 96rpx;
+	text-align: center;
+	border-radius: 30rpx;
+	background-color: #fff;
+	width: 96%;
+	margin-bottom: 30rpx;
+	box-shadow: 5rpx 5rpx 5rpx 5rpx #DCDCDC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	width: 720rpx;
+	border-radius: 30rpx;
+	margin-top: 20rpx;
+}
+button::after{
+	border: none;
+}
+.content {
+	position: relative;
+	text-align: center;
+	height: 1200rpx;
+	line-height: 500rpx;
+}
+.welcomeTitle {
+	font-size: 40rpx;
+	text-align: center;
+}
+.iptView {
+	text-align: center;
+}
+.netOption {
+	position: absolute;
+	bottom: 20rpx;
+	right: 20rpx;
+	outline: none;
+	border: none;
+	width: 100rpx;
+	border: none;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+

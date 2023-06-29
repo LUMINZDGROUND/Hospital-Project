@@ -1,0 +1,81 @@
+
+button::after{
+	border: none;
+	/* position: fixed;
+	right: 20px;
+	bottom: calc( var(--window-bottom) + 20px);
+	z-index: 1030;
+	margin-bottom: 6; */
+}
+label {
+	display: inline-block;
+	width: 600rpx;
+	height: 65rpx;
+}
+input {
+	display: inline-block;
+	width: 400rpx;
+	height: 70rpx;
+	font-size: 18px;
+	border-bottom: 1px solid gray;
+}
+button {
+	float: left;
+	width: 350rpx;
+	margin-left: 20rpx;
+}
+.example-body {
+	width: 490rpx;
+}
+.content {
+}
+.header {
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	background-color: #f8f8f8;
+}
+.title {
+	margin-top: 30rpx;
+	margin-bottom: 15rpx;
+}
+.boldTitle {
+	font-size: 18px;
+	font-weight: 700;
+}
+.choose-tab {
+	float: left;
+	display: inline-block;
+	width: 220rpx;
+	height: 1320rpx;
+	color: #778899;
+	line-height: 90rpx;
+	font-weight: 700;
+}
+.choose-item {
+	background-color: #F7F7F7;
+	text-align: right;	
+	padding-right: 20rpx;
+}
+.active {
+	background-color: white;
+}
+.rightContent {
+	display: inline-block;
+	float: left;
+	width: 490rpx;
+	height: 1300rpx;
+	/* margin-left: 25%; */
+	padding: 15rpx;
+}
+.rightTab {
+	float: left;
+	width: 545rpx;
+	height: 1050rpx;
+}
+.datetime{
+	color: #CCCCCC;
+}
+

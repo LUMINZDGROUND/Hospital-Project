@@ -1,0 +1,68 @@
+
+page {
+	background-color: #f8f8f8;
+}
+button::after{ 
+	border: none;
+}
+text {
+	margin: 0;
+}
+.header {
+	text-align: center;
+}
+.text_area {
+	position: absolute;
+	top: 24rpx;
+}
+.text_sex_dah {
+	display: block;
+	font-size: 25rpx;
+	color: #808080;
+}
+.headBtn {
+	outline: none;
+	border: none;
+	display: inline-block;
+	margin: 15rpx;
+	width: 330rpx;
+	background-color: #fff;
+	/* border-radius: 35rpx; */
+	/* box-shadow: 5rpx 5rpx 5rpx 5rpx RGB(245,245,245); */
+}
+.patientBtn {
+	position: relative;
+	outline: none;
+	border: none;
+	width: 695rpx;
+	height: 120rpx;
+	/* border-radius: 40rpx; */
+	line-height: 120%;
+	text-align: left;
+	padding-left: 10%;
+	font-size: 32rpx;
+	font-weight: 600;
+	margin-bottom: 2rpx;
+	background-color: #fff;
+	/* box-shadow: 5rpx 5rpx 5rpx 5rpx RGB(241,241,241); */
+}
+.bubble {
+	position: relative;
+	overflow: hidden;
+}
+.bubble:after {
+	content: "44444";
+	background: #5c9899;
+	position: absolute;
+	width: 750rpx;
+	height: 750rpx;
+	left: calc(50% - 375rpx);
+	top: calc(50% - 375rpx);
+	opacity: 0;
+	margin: auto;
+	border-radius: 50%;
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	transition: all 0.5s ease-in-out;
+}
+
